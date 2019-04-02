@@ -1,0 +1,1616 @@
+======---q1---=======
+Sun Mar 31 21:20:32 EDT 2019
+Checking format violation by a script...
+File q1.c, line 65: [PUT SPACE AROUND OPERATORS]:
+  printf("Sort by: 1=Name, 2=year\n");
+File q1.c, line 118: [DON'T USE C++ COMMENTS]:
+    //swap_char(names, i, min_index);
+File q1.c, line 158: [PUT SPACE AROUND OPERATORS]:
+  for(int i = start+1; i < end; i++)
+Compiling q1.c to q1
+Comparing using input q1.input.1 and answer q1.ans.1
+Diff output (empty line means correct):
+
+3,23c3,23
+< Enter choice: 1972 Agnes FL,NC
+< 1983 Alicia MS
+< 1992 Andrew FL
+< 1969 Camile TX
+< 2004 Charley SC,NC
+< 2005 Dennis FL,LA
+< 1960 Donna FL,AL
+< 1999 Floyd NC
+< 2012 Issac FL,LA,MS
+< 2004 Ivan TX,LA
+< 2004 Jeanne FL
+< 2005 Katrina TX
+< 1995 Opal MS
+< 2005 Rita NC,NJ,MA,VT
+< 2005 Wilma LA
+< 2004 Frances NC,VA
+< 1989 Hugo FL,SC,NC
+< 2009 Ida FL
+< 2008 Ike AL
+< 2011 Irene FL
+< 2003 Isabel FL,AL
+---
+> Enter choice: 1972	Agnes	FL,NC	
+> 1983	Alicia	MS	
+> 1992	Andrew	FL	
+> 1969	Camile	TX	
+> 2004	Charley	SC,NC	
+> 2005	Dennis	FL,LA	
+> 1960	Donna	FL,AL	
+> 1999	Floyd	NC	
+> 2004	Frances	NC,VA	
+> 1989	Hugo	FL,SC,NC	
+> 2009	Ida	FL	
+> 2008	Ike	AL	
+> 2011	Irene	FL	
+> 2003	Isabel	FL,AL	
+> 2012	Issac	FL,LA,MS	
+> 2004	Ivan	TX,LA	
+> 2004	Jeanne	FL	
+> 2005	Katrina	TX	
+> 1995	Opal	MS	
+> 2005	Rita	NC,NJ,MA,VT	
+> 2005	Wilma	LA	
+Comparing using input q1.input.2 and answer q1.ans.2
+Diff output (empty line means correct):
+
+3,44c3,23
+< Enter choice: swapped FL,AL & FL,NC
+< swapped TX & MS,NC
+< swapped FL,NC & FL,NC
+< swapped MS,NC & MS,NC
+< swapped FL,SC,NC°™P¯ & SC,NCNC
+< swapped FL,NC™P¯ & FL,LA
+< swapped MS,LA & FL,LA
+< swapped NC,LA & NC,LA
+< swapped FL,AL,MS & FL,LA,MSD6ktÿ
+< swapped TX,LA,MSD6ktÿ»P¯ & TX,LA,MSD6ktÿ»P¯
+< swapped FL,LA,MSD6ktÿ & FL,LA,MSD6ktÿ
+< swapped NC,VA & TX,LA,MSD6ktÿktÿ
+< swapped SC,NCNCÀ” & FL,LAMSD6ktÿ
+< swapped NC,NJ,MA,VTtÿ & NC,NJ,MA,VTtÿ
+< swapped LA,NJ,MA,VTtÿ & LA,NJ,MA,VTtÿ
+< swapped TX,LA,MSD6ktÿktÿ & TX,LA,MSD6ktÿktÿ
+< swapped FL,LAMSD6ktÿktÿÀ & FL,LAMSD6ktÿktÿÀ
+< swapped AL & FL,LAMSD6ktÿktÿ
+< swapped FL,LAMSD6ktÿktÿ & FL,LAMSD6ktÿktÿ
+< swapped FL,LAMSD6ktÿktÿ & FL,LAMSD6ktÿktÿ
+< swapped FL,LA,MSD6ktÿktÿÿÿ & FL,LA,MSD6ktÿktÿÿÿ
+< 1960 Agnes FL,AL
+< 1969 Alicia TX
+< 1972 Andrew FL,NC
+< 1983 Camile MS,NC
+< 1989 Charley FL,SC,NC°™P¯
+< 1992 Dennis FL,NC™P¯
+< 1995 Donna MS,LA
+< 1999 Floyd NC,LA
+< 2003 Issac FL,AL,MS
+< 2004 Ivan TX,LA,MSD6ktÿ»P¯
+< 2004 Jeanne FL,LA,MSD6ktÿ
+< 2004 Katrina NC,VA
+< 2004 Opal SC,NCNCÀ”
+< 2005 Rita NC,NJ,MA,VTtÿ
+< 2005 Wilma LA,NJ,MA,VTtÿ
+< 2005 Frances TX,LA,MSD6ktÿktÿ
+< 2005 Hugo FL,LAMSD6ktÿktÿÀ
+< 2008 Ida AL
+< 2009 Ike FL,LAMSD6ktÿktÿ
+< 2011 Irene FL,LAMSD6ktÿktÿ
+< 2012 Isabel FL,LA,MSD6ktÿktÿÿÿ
+---
+> Enter choice: 1960	Donna	FL,AL	
+> 1969	Camile	TX	
+> 1972	Agnes	FL,NC	
+> 1983	Alicia	MS	
+> 1989	Hugo	FL,SC,NC	
+> 1992	Andrew	FL	
+> 1995	Opal	MS	
+> 1999	Floyd	NC	
+> 2003	Isabel	FL,AL	
+> 2004	Ivan	TX,LA	
+> 2004	Jeanne	FL	
+> 2004	Frances	NC,VA	
+> 2004	Charley	SC,NC	
+> 2005	Rita	NC,NJ,MA,VT	
+> 2005	Wilma	LA	
+> 2005	Katrina	TX	
+> 2005	Dennis	FL,LA	
+> 2008	Ike	AL	
+> 2009	Ida	FL	
+> 2011	Irene	FL	
+> 2012	Issac	FL,LA,MS	
+======---q1---=======
+Sun Mar 31 21:27:15 EDT 2019
+Checking format violation by a script...
+File q1.c, line 65: [PUT SPACE AROUND OPERATORS]:
+  printf("Sort by: 1=Name, 2=year\n");
+File q1.c, line 118: [DON'T USE C++ COMMENTS]:
+    //swap_char(names, i, min_index);
+File q1.c, line 148: [PUT SPACE AROUND OPERATORS]:
+  for(int i = start+1; i < end; i++)
+Compiling q1.c to q1
+q1.c: In function â€˜swap_charâ€™:
+q1.c:138:3: warning: implicit declaration of function â€˜strcpyâ€™ [-Wimplicit-function-declaration]
+   strcpy(temp, str1);
+   ^~~~~~
+q1.c:138:3: warning: incompatible implicit declaration of built-in function â€˜strcpyâ€™
+q1.c:138:3: note: include â€˜<string.h>â€™ or provide a declaration of â€˜strcpyâ€™
+q1.c:138:16: error: â€˜str1â€™ undeclared (first use in this function)
+   strcpy(temp, str1);
+                ^~~~
+q1.c:138:16: note: each undeclared identifier is reported only once for each function it appears in
+q1.c:139:16: error: â€˜str2â€™ undeclared (first use in this function); did you mean â€˜str1â€™?
+   strcpy(str1, str2);
+                ^~~~
+                str1
+======---q1---=======
+Sun Mar 31 21:28:21 EDT 2019
+Checking format violation by a script...
+File q1.c, line 66: [PUT SPACE AROUND OPERATORS]:
+  printf("Sort by: 1=Name, 2=year\n");
+File q1.c, line 149: [PUT SPACE AROUND OPERATORS]:
+  for(int i = start+1; i < end; i++)
+Compiling q1.c to q1
+Comparing using input q1.input.1 and answer q1.ans.1
+Diff output (empty line means correct):
+
+3,23c3,23
+< Enter choice: 1972 Agnes FL,NC
+< 1983 Alicia MS
+< 1992 Andrew FL
+< 1969 Camile TX
+< 2004 Charley SC,NC
+< 2005 Dennis FL,LA
+< 1960 Donna FL,AL
+< 1999 Floyd NC
+< 2012 Issac FL,LA,MS
+< 2004 Ivan TX,LA
+< 2004 Jeanne FL
+< 2005 Katrina TX
+< 1995 Opal MS
+< 2005 Rita NC,NJ,MA,VT
+< 2005 Wilma LA
+< 2004 Frances NC,VA
+< 1989 Hugo FL,SC,NC
+< 2009 Ida FL
+< 2008 Ike AL
+< 2011 Irene FL
+< 2003 Isabel FL,AL
+---
+> Enter choice: 1972	Agnes	FL,NC	
+> 1983	Alicia	MS	
+> 1992	Andrew	FL	
+> 1969	Camile	TX	
+> 2004	Charley	SC,NC	
+> 2005	Dennis	FL,LA	
+> 1960	Donna	FL,AL	
+> 1999	Floyd	NC	
+> 2004	Frances	NC,VA	
+> 1989	Hugo	FL,SC,NC	
+> 2009	Ida	FL	
+> 2008	Ike	AL	
+> 2011	Irene	FL	
+> 2003	Isabel	FL,AL	
+> 2012	Issac	FL,LA,MS	
+> 2004	Ivan	TX,LA	
+> 2004	Jeanne	FL	
+> 2005	Katrina	TX	
+> 1995	Opal	MS	
+> 2005	Rita	NC,NJ,MA,VT	
+> 2005	Wilma	LA	
+Comparing using input q1.input.2 and answer q1.ans.2
+Diff output (empty line means correct):
+
+3,23c3,23
+< Enter choice: 1960 Donna FL,AL
+< 1969 Camile TX
+< 1972 Agnes FL,NC
+< 1983 Alicia MS
+< 1989 Hugo FL,SC,NC
+< 1992 Andrew FL
+< 1995 Opal MS
+< 1999 Floyd NC
+< 2003 Isabel FL,AL
+< 2004 Ivan TX,LA
+< 2004 Jeanne FL
+< 2004 Frances NC,VA
+< 2004 Charley SC,NC
+< 2005 Rita NC,NJ,MA,VT
+< 2005 Wilma LA
+< 2005 Katrina TX
+< 2005 Dennis FL,LA
+< 2008 Ike AL
+< 2009 Ida FL
+< 2011 Irene FL
+< 2012 Issac FL,LA,MS
+---
+> Enter choice: 1960	Donna	FL,AL	
+> 1969	Camile	TX	
+> 1972	Agnes	FL,NC	
+> 1983	Alicia	MS	
+> 1989	Hugo	FL,SC,NC	
+> 1992	Andrew	FL	
+> 1995	Opal	MS	
+> 1999	Floyd	NC	
+> 2003	Isabel	FL,AL	
+> 2004	Ivan	TX,LA	
+> 2004	Jeanne	FL	
+> 2004	Frances	NC,VA	
+> 2004	Charley	SC,NC	
+> 2005	Rita	NC,NJ,MA,VT	
+> 2005	Wilma	LA	
+> 2005	Katrina	TX	
+> 2005	Dennis	FL,LA	
+> 2008	Ike	AL	
+> 2009	Ida	FL	
+> 2011	Irene	FL	
+> 2012	Issac	FL,LA,MS	
+======---q1---=======
+Sun Mar 31 21:28:41 EDT 2019
+Checking format violation by a script...
+File q1.c, line 66: [PUT SPACE AROUND OPERATORS]:
+  printf("Sort by: 1=Name, 2=year\n");
+File q1.c, line 149: [PUT SPACE AROUND OPERATORS]:
+  for(int i = start+1; i < end; i++)
+Compiling q1.c to q1
+Comparing using input q1.input.1 and answer q1.ans.1
+Diff output (empty line means correct):
+
+3,23c3,23
+< Enter choice:   1972 Agnes FL,NC
+<   1983 Alicia MS
+<   1992 Andrew FL
+<   1969 Camile TX
+<   2004 Charley SC,NC
+<   2005 Dennis FL,LA
+<   1960 Donna FL,AL
+<   1999 Floyd NC
+<   2012 Issac FL,LA,MS
+<   2004 Ivan TX,LA
+<   2004 Jeanne FL
+<   2005 Katrina TX
+<   1995 Opal MS
+<   2005 Rita NC,NJ,MA,VT
+<   2005 Wilma LA
+<   2004 Frances NC,VA
+<   1989 Hugo FL,SC,NC
+<   2009 Ida FL
+<   2008 Ike AL
+<   2011 Irene FL
+<   2003 Isabel FL,AL
+---
+> Enter choice: 1972	Agnes	FL,NC	
+> 1983	Alicia	MS	
+> 1992	Andrew	FL	
+> 1969	Camile	TX	
+> 2004	Charley	SC,NC	
+> 2005	Dennis	FL,LA	
+> 1960	Donna	FL,AL	
+> 1999	Floyd	NC	
+> 2004	Frances	NC,VA	
+> 1989	Hugo	FL,SC,NC	
+> 2009	Ida	FL	
+> 2008	Ike	AL	
+> 2011	Irene	FL	
+> 2003	Isabel	FL,AL	
+> 2012	Issac	FL,LA,MS	
+> 2004	Ivan	TX,LA	
+> 2004	Jeanne	FL	
+> 2005	Katrina	TX	
+> 1995	Opal	MS	
+> 2005	Rita	NC,NJ,MA,VT	
+> 2005	Wilma	LA	
+Comparing using input q1.input.2 and answer q1.ans.2
+Diff output (empty line means correct):
+
+3,23c3,23
+< Enter choice:   1960 Donna FL,AL
+<   1969 Camile TX
+<   1972 Agnes FL,NC
+<   1983 Alicia MS
+<   1989 Hugo FL,SC,NC
+<   1992 Andrew FL
+<   1995 Opal MS
+<   1999 Floyd NC
+<   2003 Isabel FL,AL
+<   2004 Ivan TX,LA
+<   2004 Jeanne FL
+<   2004 Frances NC,VA
+<   2004 Charley SC,NC
+<   2005 Rita NC,NJ,MA,VT
+<   2005 Wilma LA
+<   2005 Katrina TX
+<   2005 Dennis FL,LA
+<   2008 Ike AL
+<   2009 Ida FL
+<   2011 Irene FL
+<   2012 Issac FL,LA,MS
+---
+> Enter choice: 1960	Donna	FL,AL	
+> 1969	Camile	TX	
+> 1972	Agnes	FL,NC	
+> 1983	Alicia	MS	
+> 1989	Hugo	FL,SC,NC	
+> 1992	Andrew	FL	
+> 1995	Opal	MS	
+> 1999	Floyd	NC	
+> 2003	Isabel	FL,AL	
+> 2004	Ivan	TX,LA	
+> 2004	Jeanne	FL	
+> 2004	Frances	NC,VA	
+> 2004	Charley	SC,NC	
+> 2005	Rita	NC,NJ,MA,VT	
+> 2005	Wilma	LA	
+> 2005	Katrina	TX	
+> 2005	Dennis	FL,LA	
+> 2008	Ike	AL	
+> 2009	Ida	FL	
+> 2011	Irene	FL	
+> 2012	Issac	FL,LA,MS	
+======---q1---=======
+Sun Mar 31 21:28:47 EDT 2019
+Checking format violation by a script...
+File q1.c, line 66: [PUT SPACE AROUND OPERATORS]:
+  printf("Sort by: 1=Name, 2=year\n");
+File q1.c, line 149: [PUT SPACE AROUND OPERATORS]:
+  for(int i = start+1; i < end; i++)
+Compiling q1.c to q1
+Comparing using input q1.input.1 and answer q1.ans.1
+Diff output (empty line means correct):
+
+3,23c3,23
+< Enter choice: 1972   Agnes FL,NC
+< 1983   Alicia MS
+< 1992   Andrew FL
+< 1969   Camile TX
+< 2004   Charley SC,NC
+< 2005   Dennis FL,LA
+< 1960   Donna FL,AL
+< 1999   Floyd NC
+< 2012   Issac FL,LA,MS
+< 2004   Ivan TX,LA
+< 2004   Jeanne FL
+< 2005   Katrina TX
+< 1995   Opal MS
+< 2005   Rita NC,NJ,MA,VT
+< 2005   Wilma LA
+< 2004   Frances NC,VA
+< 1989   Hugo FL,SC,NC
+< 2009   Ida FL
+< 2008   Ike AL
+< 2011   Irene FL
+< 2003   Isabel FL,AL
+---
+> Enter choice: 1972	Agnes	FL,NC	
+> 1983	Alicia	MS	
+> 1992	Andrew	FL	
+> 1969	Camile	TX	
+> 2004	Charley	SC,NC	
+> 2005	Dennis	FL,LA	
+> 1960	Donna	FL,AL	
+> 1999	Floyd	NC	
+> 2004	Frances	NC,VA	
+> 1989	Hugo	FL,SC,NC	
+> 2009	Ida	FL	
+> 2008	Ike	AL	
+> 2011	Irene	FL	
+> 2003	Isabel	FL,AL	
+> 2012	Issac	FL,LA,MS	
+> 2004	Ivan	TX,LA	
+> 2004	Jeanne	FL	
+> 2005	Katrina	TX	
+> 1995	Opal	MS	
+> 2005	Rita	NC,NJ,MA,VT	
+> 2005	Wilma	LA	
+Comparing using input q1.input.2 and answer q1.ans.2
+Diff output (empty line means correct):
+
+3,23c3,23
+< Enter choice: 1960   Donna FL,AL
+< 1969   Camile TX
+< 1972   Agnes FL,NC
+< 1983   Alicia MS
+< 1989   Hugo FL,SC,NC
+< 1992   Andrew FL
+< 1995   Opal MS
+< 1999   Floyd NC
+< 2003   Isabel FL,AL
+< 2004   Ivan TX,LA
+< 2004   Jeanne FL
+< 2004   Frances NC,VA
+< 2004   Charley SC,NC
+< 2005   Rita NC,NJ,MA,VT
+< 2005   Wilma LA
+< 2005   Katrina TX
+< 2005   Dennis FL,LA
+< 2008   Ike AL
+< 2009   Ida FL
+< 2011   Irene FL
+< 2012   Issac FL,LA,MS
+---
+> Enter choice: 1960	Donna	FL,AL	
+> 1969	Camile	TX	
+> 1972	Agnes	FL,NC	
+> 1983	Alicia	MS	
+> 1989	Hugo	FL,SC,NC	
+> 1992	Andrew	FL	
+> 1995	Opal	MS	
+> 1999	Floyd	NC	
+> 2003	Isabel	FL,AL	
+> 2004	Ivan	TX,LA	
+> 2004	Jeanne	FL	
+> 2004	Frances	NC,VA	
+> 2004	Charley	SC,NC	
+> 2005	Rita	NC,NJ,MA,VT	
+> 2005	Wilma	LA	
+> 2005	Katrina	TX	
+> 2005	Dennis	FL,LA	
+> 2008	Ike	AL	
+> 2009	Ida	FL	
+> 2011	Irene	FL	
+> 2012	Issac	FL,LA,MS	
+======---q1---=======
+Sun Mar 31 21:28:56 EDT 2019
+Checking format violation by a script...
+File q1.c, line 66: [PUT SPACE AROUND OPERATORS]:
+  printf("Sort by: 1=Name, 2=year\n");
+File q1.c, line 149: [PUT SPACE AROUND OPERATORS]:
+  for(int i = start+1; i < end; i++)
+Compiling q1.c to q1
+Comparing using input q1.input.1 and answer q1.ans.1
+Diff output (empty line means correct):
+
+3,23c3,23
+< Enter choice: 1972  Agnes FL,NC
+< 1983  Alicia MS
+< 1992  Andrew FL
+< 1969  Camile TX
+< 2004  Charley SC,NC
+< 2005  Dennis FL,LA
+< 1960  Donna FL,AL
+< 1999  Floyd NC
+< 2012  Issac FL,LA,MS
+< 2004  Ivan TX,LA
+< 2004  Jeanne FL
+< 2005  Katrina TX
+< 1995  Opal MS
+< 2005  Rita NC,NJ,MA,VT
+< 2005  Wilma LA
+< 2004  Frances NC,VA
+< 1989  Hugo FL,SC,NC
+< 2009  Ida FL
+< 2008  Ike AL
+< 2011  Irene FL
+< 2003  Isabel FL,AL
+---
+> Enter choice: 1972	Agnes	FL,NC	
+> 1983	Alicia	MS	
+> 1992	Andrew	FL	
+> 1969	Camile	TX	
+> 2004	Charley	SC,NC	
+> 2005	Dennis	FL,LA	
+> 1960	Donna	FL,AL	
+> 1999	Floyd	NC	
+> 2004	Frances	NC,VA	
+> 1989	Hugo	FL,SC,NC	
+> 2009	Ida	FL	
+> 2008	Ike	AL	
+> 2011	Irene	FL	
+> 2003	Isabel	FL,AL	
+> 2012	Issac	FL,LA,MS	
+> 2004	Ivan	TX,LA	
+> 2004	Jeanne	FL	
+> 2005	Katrina	TX	
+> 1995	Opal	MS	
+> 2005	Rita	NC,NJ,MA,VT	
+> 2005	Wilma	LA	
+Comparing using input q1.input.2 and answer q1.ans.2
+Diff output (empty line means correct):
+
+3,23c3,23
+< Enter choice: 1960  Donna FL,AL
+< 1969  Camile TX
+< 1972  Agnes FL,NC
+< 1983  Alicia MS
+< 1989  Hugo FL,SC,NC
+< 1992  Andrew FL
+< 1995  Opal MS
+< 1999  Floyd NC
+< 2003  Isabel FL,AL
+< 2004  Ivan TX,LA
+< 2004  Jeanne FL
+< 2004  Frances NC,VA
+< 2004  Charley SC,NC
+< 2005  Rita NC,NJ,MA,VT
+< 2005  Wilma LA
+< 2005  Katrina TX
+< 2005  Dennis FL,LA
+< 2008  Ike AL
+< 2009  Ida FL
+< 2011  Irene FL
+< 2012  Issac FL,LA,MS
+---
+> Enter choice: 1960	Donna	FL,AL	
+> 1969	Camile	TX	
+> 1972	Agnes	FL,NC	
+> 1983	Alicia	MS	
+> 1989	Hugo	FL,SC,NC	
+> 1992	Andrew	FL	
+> 1995	Opal	MS	
+> 1999	Floyd	NC	
+> 2003	Isabel	FL,AL	
+> 2004	Ivan	TX,LA	
+> 2004	Jeanne	FL	
+> 2004	Frances	NC,VA	
+> 2004	Charley	SC,NC	
+> 2005	Rita	NC,NJ,MA,VT	
+> 2005	Wilma	LA	
+> 2005	Katrina	TX	
+> 2005	Dennis	FL,LA	
+> 2008	Ike	AL	
+> 2009	Ida	FL	
+> 2011	Irene	FL	
+> 2012	Issac	FL,LA,MS	
+======---q1---=======
+Sun Mar 31 21:29:04 EDT 2019
+Checking format violation by a script...
+File q1.c, line 66: [PUT SPACE AROUND OPERATORS]:
+  printf("Sort by: 1=Name, 2=year\n");
+File q1.c, line 149: [PUT SPACE AROUND OPERATORS]:
+  for(int i = start+1; i < end; i++)
+Compiling q1.c to q1
+Comparing using input q1.input.1 and answer q1.ans.1
+Diff output (empty line means correct):
+
+3,23c3,23
+< Enter choice: 1972  Agnes FL,NC
+< 1983  Alicia MS
+< 1992  Andrew FL
+< 1969  Camile TX
+< 2004  Charley SC,NC
+< 2005  Dennis FL,LA
+< 1960  Donna FL,AL
+< 1999  Floyd NC
+< 2012  Issac FL,LA,MS
+< 2004  Ivan  TX,LA
+< 2004  Jeanne FL
+< 2005  Katrina TX
+< 1995  Opal  MS
+< 2005  Rita  NC,NJ,MA,VT
+< 2005  Wilma LA
+< 2004  Frances NC,VA
+< 1989  Hugo  FL,SC,NC
+< 2009  Ida   FL
+< 2008  Ike   AL
+< 2011  Irene FL
+< 2003  Isabel FL,AL
+---
+> Enter choice: 1972	Agnes	FL,NC	
+> 1983	Alicia	MS	
+> 1992	Andrew	FL	
+> 1969	Camile	TX	
+> 2004	Charley	SC,NC	
+> 2005	Dennis	FL,LA	
+> 1960	Donna	FL,AL	
+> 1999	Floyd	NC	
+> 2004	Frances	NC,VA	
+> 1989	Hugo	FL,SC,NC	
+> 2009	Ida	FL	
+> 2008	Ike	AL	
+> 2011	Irene	FL	
+> 2003	Isabel	FL,AL	
+> 2012	Issac	FL,LA,MS	
+> 2004	Ivan	TX,LA	
+> 2004	Jeanne	FL	
+> 2005	Katrina	TX	
+> 1995	Opal	MS	
+> 2005	Rita	NC,NJ,MA,VT	
+> 2005	Wilma	LA	
+Comparing using input q1.input.2 and answer q1.ans.2
+Diff output (empty line means correct):
+
+3,23c3,23
+< Enter choice: 1960  Donna FL,AL
+< 1969  Camile TX
+< 1972  Agnes FL,NC
+< 1983  Alicia MS
+< 1989  Hugo  FL,SC,NC
+< 1992  Andrew FL
+< 1995  Opal  MS
+< 1999  Floyd NC
+< 2003  Isabel FL,AL
+< 2004  Ivan  TX,LA
+< 2004  Jeanne FL
+< 2004  Frances NC,VA
+< 2004  Charley SC,NC
+< 2005  Rita  NC,NJ,MA,VT
+< 2005  Wilma LA
+< 2005  Katrina TX
+< 2005  Dennis FL,LA
+< 2008  Ike   AL
+< 2009  Ida   FL
+< 2011  Irene FL
+< 2012  Issac FL,LA,MS
+---
+> Enter choice: 1960	Donna	FL,AL	
+> 1969	Camile	TX	
+> 1972	Agnes	FL,NC	
+> 1983	Alicia	MS	
+> 1989	Hugo	FL,SC,NC	
+> 1992	Andrew	FL	
+> 1995	Opal	MS	
+> 1999	Floyd	NC	
+> 2003	Isabel	FL,AL	
+> 2004	Ivan	TX,LA	
+> 2004	Jeanne	FL	
+> 2004	Frances	NC,VA	
+> 2004	Charley	SC,NC	
+> 2005	Rita	NC,NJ,MA,VT	
+> 2005	Wilma	LA	
+> 2005	Katrina	TX	
+> 2005	Dennis	FL,LA	
+> 2008	Ike	AL	
+> 2009	Ida	FL	
+> 2011	Irene	FL	
+> 2012	Issac	FL,LA,MS	
+======---q1---=======
+Sun Mar 31 21:29:18 EDT 2019
+Checking format violation by a script...
+File q1.c, line 66: [PUT SPACE AROUND OPERATORS]:
+  printf("Sort by: 1=Name, 2=year\n");
+File q1.c, line 149: [PUT SPACE AROUND OPERATORS]:
+  for(int i = start+1; i < end; i++)
+Compiling q1.c to q1
+Comparing using input q1.input.1 and answer q1.ans.1
+Diff output (empty line means correct):
+
+3,23c3,23
+< Enter choice: 1972  Agnes   FL,NC
+< 1983  Alicia  MS
+< 1992  Andrew  FL
+< 1969  Camile  TX
+< 2004  Charley SC,NC
+< 2005  Dennis  FL,LA
+< 1960  Donna   FL,AL
+< 1999  Floyd   NC
+< 2012  Issac   FL,LA,MS
+< 2004  Ivan    TX,LA
+< 2004  Jeanne  FL
+< 2005  Katrina TX
+< 1995  Opal    MS
+< 2005  Rita    NC,NJ,MA,VT
+< 2005  Wilma   LA
+< 2004  Frances NC,VA
+< 1989  Hugo    FL,SC,NC
+< 2009  Ida     FL
+< 2008  Ike     AL
+< 2011  Irene   FL
+< 2003  Isabel  FL,AL
+---
+> Enter choice: 1972	Agnes	FL,NC	
+> 1983	Alicia	MS	
+> 1992	Andrew	FL	
+> 1969	Camile	TX	
+> 2004	Charley	SC,NC	
+> 2005	Dennis	FL,LA	
+> 1960	Donna	FL,AL	
+> 1999	Floyd	NC	
+> 2004	Frances	NC,VA	
+> 1989	Hugo	FL,SC,NC	
+> 2009	Ida	FL	
+> 2008	Ike	AL	
+> 2011	Irene	FL	
+> 2003	Isabel	FL,AL	
+> 2012	Issac	FL,LA,MS	
+> 2004	Ivan	TX,LA	
+> 2004	Jeanne	FL	
+> 2005	Katrina	TX	
+> 1995	Opal	MS	
+> 2005	Rita	NC,NJ,MA,VT	
+> 2005	Wilma	LA	
+Comparing using input q1.input.2 and answer q1.ans.2
+Diff output (empty line means correct):
+
+3,23c3,23
+< Enter choice: 1960  Donna   FL,AL
+< 1969  Camile  TX
+< 1972  Agnes   FL,NC
+< 1983  Alicia  MS
+< 1989  Hugo    FL,SC,NC
+< 1992  Andrew  FL
+< 1995  Opal    MS
+< 1999  Floyd   NC
+< 2003  Isabel  FL,AL
+< 2004  Ivan    TX,LA
+< 2004  Jeanne  FL
+< 2004  Frances NC,VA
+< 2004  Charley SC,NC
+< 2005  Rita    NC,NJ,MA,VT
+< 2005  Wilma   LA
+< 2005  Katrina TX
+< 2005  Dennis  FL,LA
+< 2008  Ike     AL
+< 2009  Ida     FL
+< 2011  Irene   FL
+< 2012  Issac   FL,LA,MS
+---
+> Enter choice: 1960	Donna	FL,AL	
+> 1969	Camile	TX	
+> 1972	Agnes	FL,NC	
+> 1983	Alicia	MS	
+> 1989	Hugo	FL,SC,NC	
+> 1992	Andrew	FL	
+> 1995	Opal	MS	
+> 1999	Floyd	NC	
+> 2003	Isabel	FL,AL	
+> 2004	Ivan	TX,LA	
+> 2004	Jeanne	FL	
+> 2004	Frances	NC,VA	
+> 2004	Charley	SC,NC	
+> 2005	Rita	NC,NJ,MA,VT	
+> 2005	Wilma	LA	
+> 2005	Katrina	TX	
+> 2005	Dennis	FL,LA	
+> 2008	Ike	AL	
+> 2009	Ida	FL	
+> 2011	Irene	FL	
+> 2012	Issac	FL,LA,MS	
+======---q1---=======
+Sun Mar 31 21:32:21 EDT 2019
+Checking format violation by a script...
+File q1.c, line 66: [PUT SPACE AROUND OPERATORS]:
+  printf("Sort by: 1=Name, 2=year\n");
+File q1.c, line 149: [PUT SPACE AROUND OPERATORS]:
+  for(int i = start+1; i < end; i++)
+Compiling q1.c to q1
+Comparing using input q1.input.1 and answer q1.ans.1
+Diff output (empty line means correct):
+
+3,23c3,23
+< Enter choice: 1972  Agnes   FL,NC
+< 1983  Alicia  MS  
+< 1992  Andrew  FL  
+< 1969  Camile  TX  
+< 2004  Charley SC,NC
+< 2005  Dennis  FL,LA
+< 1960  Donna   FL,AL
+< 1999  Floyd   NC  
+< 2012  Issac   FL,LA,MS
+< 2004  Ivan    TX,LA
+< 2004  Jeanne  FL  
+< 2005  Katrina TX  
+< 1995  Opal    MS  
+< 2005  Rita    NC,NJ,MA,VT
+< 2005  Wilma   LA  
+< 2004  Frances NC,VA
+< 1989  Hugo    FL,SC,NC
+< 2009  Ida     FL  
+< 2008  Ike     AL  
+< 2011  Irene   FL  
+< 2003  Isabel  FL,AL
+---
+> Enter choice: 1972	Agnes	FL,NC	
+> 1983	Alicia	MS	
+> 1992	Andrew	FL	
+> 1969	Camile	TX	
+> 2004	Charley	SC,NC	
+> 2005	Dennis	FL,LA	
+> 1960	Donna	FL,AL	
+> 1999	Floyd	NC	
+> 2004	Frances	NC,VA	
+> 1989	Hugo	FL,SC,NC	
+> 2009	Ida	FL	
+> 2008	Ike	AL	
+> 2011	Irene	FL	
+> 2003	Isabel	FL,AL	
+> 2012	Issac	FL,LA,MS	
+> 2004	Ivan	TX,LA	
+> 2004	Jeanne	FL	
+> 2005	Katrina	TX	
+> 1995	Opal	MS	
+> 2005	Rita	NC,NJ,MA,VT	
+> 2005	Wilma	LA	
+Comparing using input q1.input.2 and answer q1.ans.2
+Diff output (empty line means correct):
+
+3,23c3,23
+< Enter choice: 1960  Donna   FL,AL
+< 1969  Camile  TX  
+< 1972  Agnes   FL,NC
+< 1983  Alicia  MS  
+< 1989  Hugo    FL,SC,NC
+< 1992  Andrew  FL  
+< 1995  Opal    MS  
+< 1999  Floyd   NC  
+< 2003  Isabel  FL,AL
+< 2004  Ivan    TX,LA
+< 2004  Jeanne  FL  
+< 2004  Frances NC,VA
+< 2004  Charley SC,NC
+< 2005  Rita    NC,NJ,MA,VT
+< 2005  Wilma   LA  
+< 2005  Katrina TX  
+< 2005  Dennis  FL,LA
+< 2008  Ike     AL  
+< 2009  Ida     FL  
+< 2011  Irene   FL  
+< 2012  Issac   FL,LA,MS
+---
+> Enter choice: 1960	Donna	FL,AL	
+> 1969	Camile	TX	
+> 1972	Agnes	FL,NC	
+> 1983	Alicia	MS	
+> 1989	Hugo	FL,SC,NC	
+> 1992	Andrew	FL	
+> 1995	Opal	MS	
+> 1999	Floyd	NC	
+> 2003	Isabel	FL,AL	
+> 2004	Ivan	TX,LA	
+> 2004	Jeanne	FL	
+> 2004	Frances	NC,VA	
+> 2004	Charley	SC,NC	
+> 2005	Rita	NC,NJ,MA,VT	
+> 2005	Wilma	LA	
+> 2005	Katrina	TX	
+> 2005	Dennis	FL,LA	
+> 2008	Ike	AL	
+> 2009	Ida	FL	
+> 2011	Irene	FL	
+> 2012	Issac	FL,LA,MS	
+======---q1---=======
+Sun Mar 31 21:32:46 EDT 2019
+Checking format violation by a script...
+File q1.c, line 66: [PUT SPACE AROUND OPERATORS]:
+  printf("Sort by: 1=Name, 2=year\n");
+File q1.c, line 149: [PUT SPACE AROUND OPERATORS]:
+  for(int i = start+1; i < end; i++)
+Compiling q1.c to q1
+Comparing using input q1.input.1 and answer q1.ans.1
+Diff output (empty line means correct):
+
+3,23c3,23
+< Enter choice: 1972  Agnes   FL,NC  
+< 1983  Alicia  MS  
+< 1992  Andrew  FL  
+< 1969  Camile  TX  
+< 2004  Charley SC,NC  
+< 2005  Dennis  FL,LA  
+< 1960  Donna   FL,AL  
+< 1999  Floyd   NC  
+< 2012  Issac   FL,LA,MS  
+< 2004  Ivan    TX,LA  
+< 2004  Jeanne  FL  
+< 2005  Katrina TX  
+< 1995  Opal    MS  
+< 2005  Rita    NC,NJ,MA,VT  
+< 2005  Wilma   LA  
+< 2004  Frances NC,VA  
+< 1989  Hugo    FL,SC,NC  
+< 2009  Ida     FL  
+< 2008  Ike     AL  
+< 2011  Irene   FL  
+< 2003  Isabel  FL,AL  
+---
+> Enter choice: 1972	Agnes	FL,NC	
+> 1983	Alicia	MS	
+> 1992	Andrew	FL	
+> 1969	Camile	TX	
+> 2004	Charley	SC,NC	
+> 2005	Dennis	FL,LA	
+> 1960	Donna	FL,AL	
+> 1999	Floyd	NC	
+> 2004	Frances	NC,VA	
+> 1989	Hugo	FL,SC,NC	
+> 2009	Ida	FL	
+> 2008	Ike	AL	
+> 2011	Irene	FL	
+> 2003	Isabel	FL,AL	
+> 2012	Issac	FL,LA,MS	
+> 2004	Ivan	TX,LA	
+> 2004	Jeanne	FL	
+> 2005	Katrina	TX	
+> 1995	Opal	MS	
+> 2005	Rita	NC,NJ,MA,VT	
+> 2005	Wilma	LA	
+Comparing using input q1.input.2 and answer q1.ans.2
+Diff output (empty line means correct):
+
+3,23c3,23
+< Enter choice: 1960  Donna   FL,AL  
+< 1969  Camile  TX  
+< 1972  Agnes   FL,NC  
+< 1983  Alicia  MS  
+< 1989  Hugo    FL,SC,NC  
+< 1992  Andrew  FL  
+< 1995  Opal    MS  
+< 1999  Floyd   NC  
+< 2003  Isabel  FL,AL  
+< 2004  Ivan    TX,LA  
+< 2004  Jeanne  FL  
+< 2004  Frances NC,VA  
+< 2004  Charley SC,NC  
+< 2005  Rita    NC,NJ,MA,VT  
+< 2005  Wilma   LA  
+< 2005  Katrina TX  
+< 2005  Dennis  FL,LA  
+< 2008  Ike     AL  
+< 2009  Ida     FL  
+< 2011  Irene   FL  
+< 2012  Issac   FL,LA,MS  
+---
+> Enter choice: 1960	Donna	FL,AL	
+> 1969	Camile	TX	
+> 1972	Agnes	FL,NC	
+> 1983	Alicia	MS	
+> 1989	Hugo	FL,SC,NC	
+> 1992	Andrew	FL	
+> 1995	Opal	MS	
+> 1999	Floyd	NC	
+> 2003	Isabel	FL,AL	
+> 2004	Ivan	TX,LA	
+> 2004	Jeanne	FL	
+> 2004	Frances	NC,VA	
+> 2004	Charley	SC,NC	
+> 2005	Rita	NC,NJ,MA,VT	
+> 2005	Wilma	LA	
+> 2005	Katrina	TX	
+> 2005	Dennis	FL,LA	
+> 2008	Ike	AL	
+> 2009	Ida	FL	
+> 2011	Irene	FL	
+> 2012	Issac	FL,LA,MS	
+======---q1---=======
+Sun Mar 31 21:32:55 EDT 2019
+Checking format violation by a script...
+File q1.c, line 66: [PUT SPACE AROUND OPERATORS]:
+  printf("Sort by: 1=Name, 2=year\n");
+File q1.c, line 149: [PUT SPACE AROUND OPERATORS]:
+  for(int i = start+1; i < end; i++)
+Compiling q1.c to q1
+Comparing using input q1.input.1 and answer q1.ans.1
+Diff output (empty line means correct):
+
+3,23c3,23
+< Enter choice: 1972  Agnes   FL,NC 
+< 1983  Alicia  MS 
+< 1992  Andrew  FL 
+< 1969  Camile  TX 
+< 2004  Charley SC,NC 
+< 2005  Dennis  FL,LA 
+< 1960  Donna   FL,AL 
+< 1999  Floyd   NC 
+< 2012  Issac   FL,LA,MS 
+< 2004  Ivan    TX,LA 
+< 2004  Jeanne  FL 
+< 2005  Katrina TX 
+< 1995  Opal    MS 
+< 2005  Rita    NC,NJ,MA,VT 
+< 2005  Wilma   LA 
+< 2004  Frances NC,VA 
+< 1989  Hugo    FL,SC,NC 
+< 2009  Ida     FL 
+< 2008  Ike     AL 
+< 2011  Irene   FL 
+< 2003  Isabel  FL,AL 
+---
+> Enter choice: 1972	Agnes	FL,NC	
+> 1983	Alicia	MS	
+> 1992	Andrew	FL	
+> 1969	Camile	TX	
+> 2004	Charley	SC,NC	
+> 2005	Dennis	FL,LA	
+> 1960	Donna	FL,AL	
+> 1999	Floyd	NC	
+> 2004	Frances	NC,VA	
+> 1989	Hugo	FL,SC,NC	
+> 2009	Ida	FL	
+> 2008	Ike	AL	
+> 2011	Irene	FL	
+> 2003	Isabel	FL,AL	
+> 2012	Issac	FL,LA,MS	
+> 2004	Ivan	TX,LA	
+> 2004	Jeanne	FL	
+> 2005	Katrina	TX	
+> 1995	Opal	MS	
+> 2005	Rita	NC,NJ,MA,VT	
+> 2005	Wilma	LA	
+Comparing using input q1.input.2 and answer q1.ans.2
+Diff output (empty line means correct):
+
+3,23c3,23
+< Enter choice: 1960  Donna   FL,AL 
+< 1969  Camile  TX 
+< 1972  Agnes   FL,NC 
+< 1983  Alicia  MS 
+< 1989  Hugo    FL,SC,NC 
+< 1992  Andrew  FL 
+< 1995  Opal    MS 
+< 1999  Floyd   NC 
+< 2003  Isabel  FL,AL 
+< 2004  Ivan    TX,LA 
+< 2004  Jeanne  FL 
+< 2004  Frances NC,VA 
+< 2004  Charley SC,NC 
+< 2005  Rita    NC,NJ,MA,VT 
+< 2005  Wilma   LA 
+< 2005  Katrina TX 
+< 2005  Dennis  FL,LA 
+< 2008  Ike     AL 
+< 2009  Ida     FL 
+< 2011  Irene   FL 
+< 2012  Issac   FL,LA,MS 
+---
+> Enter choice: 1960	Donna	FL,AL	
+> 1969	Camile	TX	
+> 1972	Agnes	FL,NC	
+> 1983	Alicia	MS	
+> 1989	Hugo	FL,SC,NC	
+> 1992	Andrew	FL	
+> 1995	Opal	MS	
+> 1999	Floyd	NC	
+> 2003	Isabel	FL,AL	
+> 2004	Ivan	TX,LA	
+> 2004	Jeanne	FL	
+> 2004	Frances	NC,VA	
+> 2004	Charley	SC,NC	
+> 2005	Rita	NC,NJ,MA,VT	
+> 2005	Wilma	LA	
+> 2005	Katrina	TX	
+> 2005	Dennis	FL,LA	
+> 2008	Ike	AL	
+> 2009	Ida	FL	
+> 2011	Irene	FL	
+> 2012	Issac	FL,LA,MS	
+======---q1---=======
+Sun Mar 31 21:32:59 EDT 2019
+Checking format violation by a script...
+File q1.c, line 66: [PUT SPACE AROUND OPERATORS]:
+  printf("Sort by: 1=Name, 2=year\n");
+File q1.c, line 149: [PUT SPACE AROUND OPERATORS]:
+  for(int i = start+1; i < end; i++)
+Compiling q1.c to q1
+Comparing using input q1.input.1 and answer q1.ans.1
+Diff output (empty line means correct):
+
+3,23c3,23
+< Enter choice: 1972  Agnes   FL,NC   
+< 1983  Alicia  MS   
+< 1992  Andrew  FL   
+< 1969  Camile  TX   
+< 2004  Charley SC,NC   
+< 2005  Dennis  FL,LA   
+< 1960  Donna   FL,AL   
+< 1999  Floyd   NC   
+< 2012  Issac   FL,LA,MS   
+< 2004  Ivan    TX,LA   
+< 2004  Jeanne  FL   
+< 2005  Katrina TX   
+< 1995  Opal    MS   
+< 2005  Rita    NC,NJ,MA,VT   
+< 2005  Wilma   LA   
+< 2004  Frances NC,VA   
+< 1989  Hugo    FL,SC,NC   
+< 2009  Ida     FL   
+< 2008  Ike     AL   
+< 2011  Irene   FL   
+< 2003  Isabel  FL,AL   
+---
+> Enter choice: 1972	Agnes	FL,NC	
+> 1983	Alicia	MS	
+> 1992	Andrew	FL	
+> 1969	Camile	TX	
+> 2004	Charley	SC,NC	
+> 2005	Dennis	FL,LA	
+> 1960	Donna	FL,AL	
+> 1999	Floyd	NC	
+> 2004	Frances	NC,VA	
+> 1989	Hugo	FL,SC,NC	
+> 2009	Ida	FL	
+> 2008	Ike	AL	
+> 2011	Irene	FL	
+> 2003	Isabel	FL,AL	
+> 2012	Issac	FL,LA,MS	
+> 2004	Ivan	TX,LA	
+> 2004	Jeanne	FL	
+> 2005	Katrina	TX	
+> 1995	Opal	MS	
+> 2005	Rita	NC,NJ,MA,VT	
+> 2005	Wilma	LA	
+Comparing using input q1.input.2 and answer q1.ans.2
+Diff output (empty line means correct):
+
+3,23c3,23
+< Enter choice: 1960  Donna   FL,AL   
+< 1969  Camile  TX   
+< 1972  Agnes   FL,NC   
+< 1983  Alicia  MS   
+< 1989  Hugo    FL,SC,NC   
+< 1992  Andrew  FL   
+< 1995  Opal    MS   
+< 1999  Floyd   NC   
+< 2003  Isabel  FL,AL   
+< 2004  Ivan    TX,LA   
+< 2004  Jeanne  FL   
+< 2004  Frances NC,VA   
+< 2004  Charley SC,NC   
+< 2005  Rita    NC,NJ,MA,VT   
+< 2005  Wilma   LA   
+< 2005  Katrina TX   
+< 2005  Dennis  FL,LA   
+< 2008  Ike     AL   
+< 2009  Ida     FL   
+< 2011  Irene   FL   
+< 2012  Issac   FL,LA,MS   
+---
+> Enter choice: 1960	Donna	FL,AL	
+> 1969	Camile	TX	
+> 1972	Agnes	FL,NC	
+> 1983	Alicia	MS	
+> 1989	Hugo	FL,SC,NC	
+> 1992	Andrew	FL	
+> 1995	Opal	MS	
+> 1999	Floyd	NC	
+> 2003	Isabel	FL,AL	
+> 2004	Ivan	TX,LA	
+> 2004	Jeanne	FL	
+> 2004	Frances	NC,VA	
+> 2004	Charley	SC,NC	
+> 2005	Rita	NC,NJ,MA,VT	
+> 2005	Wilma	LA	
+> 2005	Katrina	TX	
+> 2005	Dennis	FL,LA	
+> 2008	Ike	AL	
+> 2009	Ida	FL	
+> 2011	Irene	FL	
+> 2012	Issac	FL,LA,MS	
+======---q1---=======
+Sun Mar 31 21:34:01 EDT 2019
+Checking format violation by a script...
+File q1.c, line 66: [PUT SPACE AROUND OPERATORS]:
+  printf("Sort by: 1=Name, 2=year\n");
+File q1.c, line 149: [PUT SPACE AROUND OPERATORS]:
+  for(int i = start+1; i < end; i++)
+Compiling q1.c to q1
+Comparing using input q1.input.1 and answer q1.ans.1
+Diff output (empty line means correct):
+
+3,23c3,23
+< Enter choice: 1972	Agnes	FL,NC
+< 1983	Alicia	MS
+< 1992	Andrew	FL
+< 1969	Camile	TX
+< 2004	Charley	SC,NC
+< 2005	Dennis	FL,LA
+< 1960	Donna	FL,AL
+< 1999	Floyd	NC
+< 2012	Issac	FL,LA,MS
+< 2004	Ivan	TX,LA
+< 2004	Jeanne	FL
+< 2005	Katrina	TX
+< 1995	Opal	MS
+< 2005	Rita	NC,NJ,MA,VT
+< 2005	Wilma	LA
+< 2004	Frances	NC,VA
+< 1989	Hugo	FL,SC,NC
+< 2009	Ida	FL
+< 2008	Ike	AL
+< 2011	Irene	FL
+< 2003	Isabel	FL,AL
+---
+> Enter choice: 1972	Agnes	FL,NC	
+> 1983	Alicia	MS	
+> 1992	Andrew	FL	
+> 1969	Camile	TX	
+> 2004	Charley	SC,NC	
+> 2005	Dennis	FL,LA	
+> 1960	Donna	FL,AL	
+> 1999	Floyd	NC	
+> 2004	Frances	NC,VA	
+> 1989	Hugo	FL,SC,NC	
+> 2009	Ida	FL	
+> 2008	Ike	AL	
+> 2011	Irene	FL	
+> 2003	Isabel	FL,AL	
+> 2012	Issac	FL,LA,MS	
+> 2004	Ivan	TX,LA	
+> 2004	Jeanne	FL	
+> 2005	Katrina	TX	
+> 1995	Opal	MS	
+> 2005	Rita	NC,NJ,MA,VT	
+> 2005	Wilma	LA	
+Comparing using input q1.input.2 and answer q1.ans.2
+Diff output (empty line means correct):
+
+3,23c3,23
+< Enter choice: 1960	Donna	FL,AL
+< 1969	Camile	TX
+< 1972	Agnes	FL,NC
+< 1983	Alicia	MS
+< 1989	Hugo	FL,SC,NC
+< 1992	Andrew	FL
+< 1995	Opal	MS
+< 1999	Floyd	NC
+< 2003	Isabel	FL,AL
+< 2004	Ivan	TX,LA
+< 2004	Jeanne	FL
+< 2004	Frances	NC,VA
+< 2004	Charley	SC,NC
+< 2005	Rita	NC,NJ,MA,VT
+< 2005	Wilma	LA
+< 2005	Katrina	TX
+< 2005	Dennis	FL,LA
+< 2008	Ike	AL
+< 2009	Ida	FL
+< 2011	Irene	FL
+< 2012	Issac	FL,LA,MS
+---
+> Enter choice: 1960	Donna	FL,AL	
+> 1969	Camile	TX	
+> 1972	Agnes	FL,NC	
+> 1983	Alicia	MS	
+> 1989	Hugo	FL,SC,NC	
+> 1992	Andrew	FL	
+> 1995	Opal	MS	
+> 1999	Floyd	NC	
+> 2003	Isabel	FL,AL	
+> 2004	Ivan	TX,LA	
+> 2004	Jeanne	FL	
+> 2004	Frances	NC,VA	
+> 2004	Charley	SC,NC	
+> 2005	Rita	NC,NJ,MA,VT	
+> 2005	Wilma	LA	
+> 2005	Katrina	TX	
+> 2005	Dennis	FL,LA	
+> 2008	Ike	AL	
+> 2009	Ida	FL	
+> 2011	Irene	FL	
+> 2012	Issac	FL,LA,MS	
+======---q1---=======
+Sun Mar 31 21:34:14 EDT 2019
+Checking format violation by a script...
+File q1.c, line 66: [PUT SPACE AROUND OPERATORS]:
+  printf("Sort by: 1=Name, 2=year\n");
+File q1.c, line 149: [PUT SPACE AROUND OPERATORS]:
+  for(int i = start+1; i < end; i++)
+Compiling q1.c to q1
+Comparing using input q1.input.1 and answer q1.ans.1
+Diff output (empty line means correct):
+
+10a11,16
+> 2004	Frances	NC,VA	
+> 1989	Hugo	FL,SC,NC	
+> 2009	Ida	FL	
+> 2008	Ike	AL	
+> 2011	Irene	FL	
+> 2003	Isabel	FL,AL	
+18,23d23
+< 2004	Frances	NC,VA	
+< 1989	Hugo	FL,SC,NC	
+< 2009	Ida	FL	
+< 2008	Ike	AL	
+< 2011	Irene	FL	
+< 2003	Isabel	FL,AL	
+Comparing using input q1.input.2 and answer q1.ans.2
+Diff output (empty line means correct):
+
+======---q1---=======
+Sun Mar 31 21:40:40 EDT 2019
+Checking format violation by a script...
+File q1.c, line 69: [PUT SPACE AROUND OPERATORS]:
+  printf("Sort by: 1=Name, 2=year\n");
+Compiling q1.c to q1
+q1.c: In function â€˜sort_by_nameâ€™:
+q1.c:115:36: warning: passing argument 1 of â€˜get_min_index_charâ€™ from incompatible pointer type [-Wincompatible-pointer-types]
+     min_index = get_min_index_char(names, i, array_length);
+                                    ^~~~~
+q1.c:45:5: note: expected â€˜char *â€™ but argument is of type â€˜char (*)[100]â€™
+ int get_min_index_char(char a[], int start, int end);
+     ^~~~~~~~~~~~~~~~~~
+q1.c: In function â€˜get_min_index_charâ€™:
+q1.c:191:24: error: subscripted value is neither array nor pointer nor vector
+     for(int j = 0; a[i][j] && a[min][j]; j++)
+                        ^
+q1.c:191:37: error: subscripted value is neither array nor pointer nor vector
+     for(int j = 0; a[i][j] && a[min][j]; j++)
+                                     ^
+q1.c:193:14: error: subscripted value is neither array nor pointer nor vector
+       if(a[i][j] < a[min][j])
+              ^
+q1.c:193:26: error: subscripted value is neither array nor pointer nor vector
+       if(a[i][j] < a[min][j])
+                          ^
+======---q1---=======
+Sun Mar 31 21:50:43 EDT 2019
+Checking format violation by a script...
+File q1.c, line 69: [PUT SPACE AROUND OPERATORS]:
+  printf("Sort by: 1=Name, 2=year\n");
+Compiling q1.c to q1
+Comparing using input q1.input.1 and answer q1.ans.1
+Diff output (empty line means correct):
+
+Comparing using input q1.input.2 and answer q1.ans.2
+Diff output (empty line means correct):
+
+======---q1---=======
+Sun Mar 31 21:52:07 EDT 2019
+Checking format violation by a script...
+File q1.c, line 69: [PUT SPACE AROUND OPERATORS]:
+  printf("Sort by: 1=Name, 2=year\n");
+Compiling q1.c to q1
+Comparing using input q1.input.1 and answer q1.ans.1
+Diff output (empty line means correct):
+
+Comparing using input q1.input.2 and answer q1.ans.2
+Diff output (empty line means correct):
+
+======---q2---=======
+Mon Apr 1 22:35:07 EDT 2019
+Checking format violation by a script...
+File q2.c, line 17: [TOO LONG (81 CHARS)]:
+int search(char color_codes[NUM_OF_COLOR_CODES][MAX_STR_LEN], int color_code_len,
+File q2.c, line 49: [PUT SPACE AROUND OPERATORS]:
+    printf("Resistance value: %d kilo-ohms\n", resistance / 1000);
+File q2.c, line 61: [TOO LONG (81 CHARS)]:
+int search(char color_codes[NUM_OF_COLOR_CODES][MAX_STR_LEN], int color_code_len,
+Compiling q2.c to q2
+q2.c: In function â€˜mainâ€™:
+q2.c:28:3: error: expected identifier or â€˜(â€™ before â€˜charâ€™
+   char color_codes[NUM_OF_COLOR_CODES][MAX_STR_LEN] = {"black", "brown", "red",
+   ^~~~
+q2.c:45:25: error: â€˜color_codesâ€™ undeclared (first use in this function); did you mean â€˜color_code_lenâ€™?
+     resistance = search(color_codes, color_code_len, bands[0]) * 10;
+                         ^~~~~~~~~~~
+                         color_code_len
+q2.c:45:25: note: each undeclared identifier is reported only once for each function it appears in
+======---q2---=======
+Mon Apr 1 22:35:32 EDT 2019
+Checking format violation by a script...
+File q2.c, line 17: [TOO LONG (81 CHARS)]:
+int search(char color_codes[NUM_OF_COLOR_CODES][MAX_STR_LEN], int color_code_len,
+File q2.c, line 49: [PUT SPACE AROUND OPERATORS]:
+    printf("Resistance value: %d kilo-ohms\n", resistance / 1000);
+File q2.c, line 61: [TOO LONG (81 CHARS)]:
+int search(char color_codes[NUM_OF_COLOR_CODES][MAX_STR_LEN], int color_code_len,
+Compiling q2.c to q2
+Comparing using input q2.input.1 and answer q2.ans.1
+Diff output (empty line means correct):
+
+======---q2---=======
+Mon Apr 1 22:36:19 EDT 2019
+Checking format violation by a script...
+File q2.c, line 17: [TOO LONG (81 CHARS)]:
+int search(char color_codes[NUM_OF_COLOR_CODES][MAX_STR_LEN], int color_code_len,
+File q2.c, line 49: [PUT SPACE AROUND OPERATORS]:
+    printf("Resistance value: %d kilo-ohms\n", resistance / 1000);
+File q2.c, line 62: [TOO LONG (81 CHARS)]:
+int search(char color_codes[NUM_OF_COLOR_CODES][MAX_STR_LEN], int color_code_len,
+Compiling q2.c to q2
+Comparing using input q2.input.1 and answer q2.ans.1
+Diff output (empty line means correct):
+
+1,2c1,3
+< Enter the colors of the resistor's three bands, beginning with the band nearest the end. Type the colors in lowercase letters only, NO CAPS.
+< Band 1: Band 2: Band 3: Resistance value: 2 kilo-ohms
+---
+> Enter the colors of the resistor's three bands, beginning with
+> the band nearest the end. Type the colors in lowercase letters only, NO CAPS.
+> Band 1 => Band 2 => Band 3 => Resistance value: 2.2 kilo-ohms
+4,5c5,7
+< => Enter the colors of the resistor's three bands, beginning with the band nearest the end. Type the colors in lowercase letters only, NO CAPS.
+< Band 1: Band 2: Band 3: Resistance value: 680 kilo-ohms
+---
+> =>Enter the colors of the resistor's three bands, beginning with
+> the band nearest the end. Type the colors in lowercase letters only, NO CAPS.
+> Band 1 => Band 2 => Band 3 => Resistance value: 680.0 kilo-ohms
+7,8c9,11
+< => Enter the colors of the resistor's three bands, beginning with the band nearest the end. Type the colors in lowercase letters only, NO CAPS.
+< Band 1: Band 2: Band 3: Resistance value: 900000 kilo-ohms
+---
+> =>Enter the colors of the resistor's three bands, beginning with
+> the band nearest the end. Type the colors in lowercase letters only, NO CAPS.
+> Band 1 => Band 2 => Band 3 => Invalid color: vilet
+10c13
+< => 
+\ No newline at end of file
+---
+> =>
+\ No newline at end of file
+======---q2---=======
+Mon Apr 1 22:37:09 EDT 2019
+Checking format violation by a script...
+File q2.c, line 17: [TOO LONG (81 CHARS)]:
+int search(char color_codes[NUM_OF_COLOR_CODES][MAX_STR_LEN], int color_code_len,
+File q2.c, line 49: [PUT SPACE AROUND OPERATORS]:
+    printf("Resistance value: %d kilo-ohms\n", resistance / 1000.0);
+File q2.c, line 62: [TOO LONG (81 CHARS)]:
+int search(char color_codes[NUM_OF_COLOR_CODES][MAX_STR_LEN], int color_code_len,
+Compiling q2.c to q2
+q2.c: In function â€˜mainâ€™:
+q2.c:49:32: warning: format â€˜%dâ€™ expects argument of type â€˜intâ€™, but argument 2 has type â€˜doubleâ€™ [-Wformat=]
+     printf("Resistance value: %d kilo-ohms\n", resistance / 1000.0);
+                               ~^               ~~~~~~~~~~~~~~~~~~~
+                               %f
+Comparing using input q2.input.1 and answer q2.ans.1
+Diff output (empty line means correct):
+
+3c3
+< Band 1: Band 2: Band 3: Resistance value: 152313374 kilo-ohms
+---
+> Band 1 => Band 2 => Band 3 => Resistance value: 2.2 kilo-ohms
+5c5
+< => Enter the colors of the resistor's three bands, beginning with
+---
+> =>Enter the colors of the resistor's three bands, beginning with
+7c7
+< Band 1: Band 2: Band 3: Resistance value: -1545081984 kilo-ohms
+---
+> Band 1 => Band 2 => Band 3 => Resistance value: 680.0 kilo-ohms
+9c9
+< => Enter the colors of the resistor's three bands, beginning with
+---
+> =>Enter the colors of the resistor's three bands, beginning with
+11c11
+< Band 1: Band 2: Band 3: Resistance value: -1545081984 kilo-ohms
+---
+> Band 1 => Band 2 => Band 3 => Invalid color: vilet
+13c13
+< => 
+\ No newline at end of file
+---
+> =>
+\ No newline at end of file
+======---q2---=======
+Mon Apr 1 22:37:25 EDT 2019
+Checking format violation by a script...
+File q2.c, line 17: [TOO LONG (81 CHARS)]:
+int search(char color_codes[NUM_OF_COLOR_CODES][MAX_STR_LEN], int color_code_len,
+File q2.c, line 49: [PUT SPACE AROUND OPERATORS]:
+    printf("Resistance value: %d kilo-ohms\n", resistance / 1000.0);
+File q2.c, line 62: [TOO LONG (81 CHARS)]:
+int search(char color_codes[NUM_OF_COLOR_CODES][MAX_STR_LEN], int color_code_len,
+Compiling q2.c to q2
+q2.c: In function â€˜mainâ€™:
+q2.c:49:32: warning: format â€˜%dâ€™ expects argument of type â€˜intâ€™, but argument 2 has type â€˜doubleâ€™ [-Wformat=]
+     printf("Resistance value: %d kilo-ohms\n", resistance / 1000.0);
+                               ~^               ~~~~~~~~~~~~~~~~~~~
+                               %f
+Comparing using input q2.input.1 and answer q2.ans.1
+Diff output (empty line means correct):
+
+3c3
+< Band 1 => Band 2 => Band 3 => Resistance value: 316925342 kilo-ohms
+---
+> Band 1 => Band 2 => Band 3 => Resistance value: 2.2 kilo-ohms
+5c5
+< => Enter the colors of the resistor's three bands, beginning with
+---
+> =>Enter the colors of the resistor's three bands, beginning with
+7c7
+< Band 1 => Band 2 => Band 3 => Resistance value: 889584512 kilo-ohms
+---
+> Band 1 => Band 2 => Band 3 => Resistance value: 680.0 kilo-ohms
+9c9
+< => Enter the colors of the resistor's three bands, beginning with
+---
+> =>Enter the colors of the resistor's three bands, beginning with
+11c11
+< Band 1 => Band 2 => Band 3 => Resistance value: 889584512 kilo-ohms
+---
+> Band 1 => Band 2 => Band 3 => Invalid color: vilet
+13c13
+< => 
+\ No newline at end of file
+---
+> =>
+\ No newline at end of file
+======---q2---=======
+Mon Apr 1 22:38:32 EDT 2019
+Checking format violation by a script...
+File q2.c, line 17: [TOO LONG (81 CHARS)]:
+int search(char color_codes[NUM_OF_COLOR_CODES][MAX_STR_LEN], int color_code_len,
+File q2.c, line 49: [PUT SPACE AROUND OPERATORS]:
+    printf("Resistance value: %.1f kilo-ohms\n", resistance / 1000.0);
+File q2.c, line 62: [TOO LONG (81 CHARS)]:
+int search(char color_codes[NUM_OF_COLOR_CODES][MAX_STR_LEN], int color_code_len,
+Compiling q2.c to q2
+Comparing using input q2.input.1 and answer q2.ans.1
+Diff output (empty line means correct):
+
+5c5
+< => Enter the colors of the resistor's three bands, beginning with
+---
+> =>Enter the colors of the resistor's three bands, beginning with
+9c9
+< => Enter the colors of the resistor's three bands, beginning with
+---
+> =>Enter the colors of the resistor's three bands, beginning with
+11c11
+< Band 1 => Band 2 => Band 3 => Resistance value: 900000.0 kilo-ohms
+---
+> Band 1 => Band 2 => Band 3 => Invalid color: vilet
+13c13
+< => 
+\ No newline at end of file
+---
+> =>
+\ No newline at end of file
+======---q2---=======
+Mon Apr 1 22:38:46 EDT 2019
+Checking format violation by a script...
+File q2.c, line 17: [TOO LONG (81 CHARS)]:
+int search(char color_codes[NUM_OF_COLOR_CODES][MAX_STR_LEN], int color_code_len,
+File q2.c, line 49: [PUT SPACE AROUND OPERATORS]:
+    printf("Resistance value: %.1f kilo-ohms\n", resistance / 1000.0);
+File q2.c, line 62: [TOO LONG (81 CHARS)]:
+int search(char color_codes[NUM_OF_COLOR_CODES][MAX_STR_LEN], int color_code_len,
+Compiling q2.c to q2
+Comparing using input q2.input.1 and answer q2.ans.1
+Diff output (empty line means correct):
+
+11c11
+< Band 1 => Band 2 => Band 3 => Resistance value: 900000.0 kilo-ohms
+---
+> Band 1 => Band 2 => Band 3 => Invalid color: vilet
+======---q2---=======
+Mon Apr 1 22:49:50 EDT 2019
+Checking format violation by a script...
+File q2.c, line 74: [PUT SPACE AROUND OPERATORS]:
+    printf("Resistance value: %.1f kilo-ohms\n", resistance / 1000.0);
+File q2.c, line 91: [TOO LONG (81 CHARS)]:
+int search(char color_codes[NUM_OF_COLOR_CODES][MAX_STR_LEN], int color_code_len,
+Compiling q2.c to q2
+Comparing using input q2.input.1 and answer q2.ans.1
+Diff output (empty line means correct):
+
+11c11
+< Band 1 => Band 2 => Band 3 => Resistance value: 900000.0 kilo-ohms
+---
+> Band 1 => Band 2 => Band 3 => Invalid color: vilet
+======---q2---=======
+Mon Apr 1 22:49:58 EDT 2019
+Checking format violation by a script...
+File q2.c, line 74: [PUT SPACE AROUND OPERATORS]:
+    printf("Resistance value: %.1f kilo-ohms\n", resistance / 1000.0);
+File q2.c, line 91: [TOO LONG (81 CHARS)]:
+int search(char color_codes[NUM_OF_COLOR_CODES][MAX_STR_LEN], int color_code_len,
+Compiling q2.c to q2
+Comparing using input q2.input.1 and answer q2.ans.1
+Diff output (empty line means correct):
+
+11c11
+< Band 1 => Band 2 => Band 3 => Resistance value: 900000.0 kilo-ohms
+---
+> Band 1 => Band 2 => Band 3 => Invalid color: vilet
+======---q2---=======
+Mon Apr 1 22:54:16 EDT 2019
+Checking format violation by a script...
+File q2.c, line 73: [PUT SPACE AROUND OPERATORS]:
+      printf("Resistance value: %.1f kilo-ohms\n", resistance / 1000.0);
+File q2.c, line 89: [TOO LONG (81 CHARS)]:
+int search(char color_codes[NUM_OF_COLOR_CODES][MAX_STR_LEN], int color_code_len,
+Compiling q2.c to q2
+Comparing using input q2.input.1 and answer q2.ans.1
+Diff output (empty line means correct):
+
+======---q2---=======
+Mon Apr 1 22:54:29 EDT 2019
+Checking format violation by a script...
+File q2.c, line 73: [PUT SPACE AROUND OPERATORS]:
+      printf("Resistance value: %.1f kilo-ohms\n", resistance / 1000.0);
+Compiling q2.c to q2
+Comparing using input q2.input.1 and answer q2.ans.1
+Diff output (empty line means correct):
+
+======---q2---=======
+Mon Apr 1 22:55:27 EDT 2019
+Checking format violation by a script...
+File q2.c, line 75: [PUT SPACE AROUND OPERATORS]:
+      printf("Resistance value: %.1f kilo-ohms\n", resistance / 1000.0);
+Compiling q2.c to q2
+Comparing using input q2.input.1 and answer q2.ans.1
+Diff output (empty line means correct):
+
