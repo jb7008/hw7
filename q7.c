@@ -13,7 +13,7 @@
 
 void get_line(char line[MAX_STR_LEN]); /* Reads input line */
   /* Splits and line on spaces and prints reversed words */
-void reverse_line(char line[MAX_STR_LEN],\
+void reverse_line(char line[MAX_STR_LEN],
   char words[MAX_NUM_OF_WORDS][MAX_STR_LEN]);
 
 int
@@ -25,9 +25,7 @@ main(void)
   get_line(input_line); /* Gets input line */
   /* Splits and line on spaces and prints reversed words */
   reverse_line(input_line, words);
-
-
-
+  
   return 0;
 }
 
@@ -36,23 +34,24 @@ void
 get_line(char line[MAX_STR_LEN])
 {
   printf("Input: ");
-  gets(line);
+  gets(line); /* Taking in line */
 }
 
 /* Splits and line on spaces and prints reversed words */
 void
 reverse_line(char line[MAX_STR_LEN], char words[MAX_NUM_OF_WORDS][MAX_STR_LEN])
 {
-    int space_index = 0, /* Current word in words[][] */
+  int space_index = 0, /* Current word in words[][] */
     i = 0; /* Iterator through line */
 
   while(i < strlen(line)) /* While end hasn't been reached */
   {
     if(line[i++] == ' ') /* If there is a space */
     {
-      /* Copy string up to that point into words
+      /* Copy string up until that point into words
         ( - 1 removes space from copy) */
       strncpy(words[space_index++], line, i - 1);
+      words[0][i + 1] = '\0'; /* Terminates first word with null */
       line = line + i; /* Moves line onto next chracter after space */
       i = 0; /* Reset i */
     }
@@ -62,9 +61,6 @@ reverse_line(char line[MAX_STR_LEN], char words[MAX_NUM_OF_WORDS][MAX_STR_LEN])
   /* Formatting */
   printf("Output: ");
   /* Print the words in words[][] in reverse order */
-  printf("%s\n", words[0]);
-  printf("%s\n", words[1]);
-  printf("%s\n", words[2]);
   while(space_index >= 0)
     printf("%s ", words[space_index--]);
   printf("\n");

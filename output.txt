@@ -1,16 +1,33 @@
 ======---q7---=======
-Wed Apr 3 09:24:39 EDT 2019
+Wed Apr 3 13:41:04 EDT 2019
 Checking format violation by a script...
-File q7.c, line 16: [PUT SPACE AFTER COMMA]:
-void reverse_line(char line[MAX_STR_LEN],\
+File q7.c, line 36: [DON'T USE C++ COMMENTS]:
+  //char c; /* Temporary storage character */
+File q7.c, line 37: [DON'T USE C++ COMMENTS]:
+  //int i = 0; /* Length of array */
+File q7.c, line 40: [DON'T USE C++ COMMENTS]:
+  //for(c = getchar(); c != '\n' ; c = getchar(), i++)
+File q7.c, line 41: [DON'T USE C++ COMMENTS]:
+  //{
+File q7.c, line 42: [DON'T USE C++ COMMENTS]:
+   // line[i] = c; /* Store character in array */
+File q7.c, line 43: [DON'T USE C++ COMMENTS]:
+  //}
+File q7.c, line 65: [PUT SPACE AROUND OPERATORS]:
+      printf("%d\n", strlen(words[space_index-1]));
 Compiling q7.c to q7
 Comparing using input q7.input.1 and answer q7.ans.1
 Diff output (empty line means correct):
 
-1,4c1
-< Input: Output: birdý
-< an
+1,9c1
+< Input: Read line: birds and bees
+< 6
+< Copied Word: birds
+< 3
+< Copied Word: bird
+< bird
+< and
 < bees
-< bees an birdý 
+< Output: bees and bird 
 ---
 > Input: Output: bees and birds 
