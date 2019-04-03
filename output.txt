@@ -4,13 +4,6 @@ Checking format violation by a script...
 File q7.c, line 16: [PUT SPACE AFTER COMMA]:
 void reverse_line(char line[MAX_STR_LEN],\
 Compiling q7.c to q7
-q7.c: In function ‘get_line’:
-q7.c:39:3: warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
-   gets(line);
-   ^~~~
-   fgets
-/tmp/cc1tUQCY.o: In function `get_line':
-q7.c:(.text+0x81): warning: the `gets' function is dangerous and should not be used.
 Comparing using input q7.input.1 and answer q7.ans.1
 Diff output (empty line means correct):
 
