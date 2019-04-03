@@ -33,8 +33,15 @@ main(void)
 void
 get_line(char line[MAX_STR_LEN])
 {
+  char c; /* Temporary character holder */
+  int i = 0; /* Index of line */
+
   printf("Input: ");
-  gets(line); /* Taking in line */
+  /* Gets next character while the end of line hasn't been encountered */
+  for(c = getchar(); c != '\n'; c = getchar(), i++)
+  {
+    line[i] = c; /* Stores temp char in array */
+  }
 }
 
 /* Splits and line on spaces and prints reversed words */

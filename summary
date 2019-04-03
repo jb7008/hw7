@@ -1,5 +1,5 @@
 ======---q1---=======
-Wed Apr 3 13:43:35 EDT 2019
+Wed Apr 3 16:36:03 EDT 2019
 Checking format violation by a script...
 File q1.c, line 69: [PUT SPACE AROUND OPERATORS]:
   printf("Sort by: 1=Name, 2=year\n");
@@ -11,7 +11,7 @@ Comparing using input q1.input.2 and answer q1.ans.2
 Diff output (empty line means correct):
 
 ======---q2---=======
-Wed Apr 3 13:43:35 EDT 2019
+Wed Apr 3 16:36:04 EDT 2019
 Checking format violation by a script...
 File q2.c, line 75: [PUT SPACE AROUND OPERATORS]:
       printf("Resistance value: %.1f kilo-ohms\n", resistance / 1000.0);
@@ -20,21 +20,14 @@ Comparing using input q2.input.1 and answer q2.ans.1
 Diff output (empty line means correct):
 
 ======---q7---=======
-Wed Apr 3 13:43:35 EDT 2019
+Wed Apr 3 16:36:04 EDT 2019
 Checking format violation by a script...
 Compiling q7.c to q7
-q7.c: In function ‘get_line’:
-q7.c:37:3: warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
-   gets(line); /* Taking in line */
-   ^~~~
-   fgets
-/tmp/cc7G54Mp.o: In function `get_line':
-q7.c:(.text+0x81): warning: the `gets' function is dangerous and should not be used.
 Comparing using input q7.input.1 and answer q7.ans.1
 Diff output (empty line means correct):
 
 ======---q8---=======
-Wed Apr 3 13:43:35 EDT 2019
+Wed Apr 3 16:36:04 EDT 2019
 Checking format violation by a script...
 Compiling q8.c to q8
 Comparing using input q8.input.1 and answer q8.ans.1
